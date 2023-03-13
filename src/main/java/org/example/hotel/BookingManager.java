@@ -12,8 +12,16 @@ public class BookingManager {
 
     public boolean checkRoomAvailability(String roomName) {
 
-        List<String> roomsAvailable = hotel.fetchAvailableRooms();
-        return roomsAvailable.contains(roomName);
-    }
+        if (roomName == null || roomName.trim().isEmpty()) {
+            return false;
+        }
 
+        List<String> roomsAvailable = hotel.fetchAvailableRooms();
+        for (String room : roomsAvailable) {
+            if (room.equalsIgnoreCase(roomName)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.hotel.BookingManagerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-03-13T19:06:11" hostname="LAPTOP-FLY" time="2.169">
+<testsuite name="org.example.hotel.BookingManagerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-03-14T08:37:47" hostname="LAPTOP-FLY" time="2.996">
   <properties/>
-  <testcase name="checkRoomAvailability_shouldReturnFalse_whenRoomIsNotInTheList()" classname="org.example.hotel.BookingManagerTest" time="2.05"/>
-  <testcase name="checkRoomAvailability_shouldReturnFalse_whenNoAvailableRooms()" classname="org.example.hotel.BookingManagerTest" time="0.016"/>
+  <testcase name="checkRoomAvailability_shouldReturnFalse_whenRoomIsNotInTheList()" classname="org.example.hotel.BookingManagerTest" time="2.932"/>
+  <testcase name="checkRoomAvailability_shouldReturnFalse_whenNoAvailableRooms()" classname="org.example.hotel.BookingManagerTest" time="0.005"/>
   <testcase name="checkRoomAvailability_shouldReturnTrue_whenRoomIsAvailable()" classname="org.example.hotel.BookingManagerTest" time="0.01"/>
-  <testcase name="checkRoomAvailability_shouldBeCaseInsensitive()" classname="org.example.hotel.BookingManagerTest" time="0.029"/>
-  <testcase name="checkRoomAvailability_shouldReturnFalse_whenHotelNotSet()" classname="org.example.hotel.BookingManagerTest" time="0.024"/>
+  <testcase name="checkRoomAvailability_shouldBeCaseInsensitive()" classname="org.example.hotel.BookingManagerTest" time="0.012"/>
+  <testcase name="checkRoomAvailability_shouldReturnFalse_whenHotelNotSet()" classname="org.example.hotel.BookingManagerTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.restaurant.DinnerWaiterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-14T08:37:51" hostname="LAPTOP-FLY" time="0.011">
+  <properties/>
+  <testcase name="getMeatMenu_shouldReturnCorrectMenu_whenCalled()" classname="org.example.restaurant.DinnerWaiterTest" time="0.004"/>
+  <testcase name="getVegetarianMenu_shouldReturnCorrectMenu_whenCalled()" classname="org.example.restaurant.DinnerWaiterTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

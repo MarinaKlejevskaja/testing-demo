@@ -51,7 +51,6 @@ class BookingManagerTest {
 
     @Test
     void checkRoomAvailability_shouldReturnFalse_whenHotelNotSet() {
-        bookingManager = new BookingManager(hotel);
         boolean actual = bookingManager.checkRoomAvailability("A");
         assertThat(actual).isFalse();
     }

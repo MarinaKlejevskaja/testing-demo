@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.restaurant.CustomerOrderTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-03-14T08:37:51" hostname="LAPTOP-FLY" time="0.305">
+  <properties/>
+  <testcase name="vegetarianBreakfast_shouldReturnCorrectMenu_whenCalled()" classname="org.example.restaurant.CustomerOrderTest" time="0.174"/>
+  <testcase name="vegetarianDinner_shouldReturnCorrectMenu_whenCalled()" classname="org.example.restaurant.CustomerOrderTest" time="0.026"/>
+  <testcase name="meatBreakfast_shouldReturnCorrectMenu_whenCalled()" classname="org.example.restaurant.CustomerOrderTest" time="0.028"/>
+  <testcase name="meatDinner_shouldReturnCorrectMenu_whenCalled()" classname="org.example.restaurant.CustomerOrderTest" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
